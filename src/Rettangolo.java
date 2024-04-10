@@ -10,6 +10,14 @@ public class Rettangolo implements Forma {
         this.altezza = altezza;
     }
 
+    public double getBase() {
+        return base;
+    }
+
+    public double getAltezza() {
+        return altezza;
+    }
+
     @Override
     public double calcolaArea() {
         return base * altezza;
